@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
 
-int main5()
+int main()
 {
-	//´´½¨±äÁ¿£ºÊý¾ÝÀàÐÍ ±äÁ¿Ãû = ±äÁ¿³õÊ¼Öµ
-	//²»ÒªÓÃ¹Ø¼ü×Ö¸ø±äÁ¿»òÕß³£Á¿ÆðÃû³Æ
-	//int int = 10;  //´íÎó£¬µÚ¶þ¸öintÊÇ¹Ø¼ü×Ö£¬²»¿ÉÒÔ×÷Îª±äÁ¿µÄÃû³Æ
+	//åˆ›å»ºå˜é‡ï¼šæ•°æ®ç±»åž‹ å˜é‡å = å˜é‡åˆå§‹å€¼
+	//ä¸è¦ç”¨å…³é”®å­—ç»™å˜é‡æˆ–è€…å¸¸é‡èµ·åç§°
+	//int int = 10;  //é”™è¯¯ï¼Œç¬¬äºŒä¸ªintæ˜¯å…³é”®å­—ï¼Œä¸å¯ä»¥ä½œä¸ºå˜é‡çš„åç§°
 
 	system("pause");
 
