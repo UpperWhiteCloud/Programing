@@ -1,25 +1,25 @@
 #include<iostream>
 using namespace std;
 
-int main3()
+int main()
 {
-	//���ͣ�short(2���ֽ�)  int(4���ֽ�)  long(4���ֽ�-window)  long long(8���ֽ�)
-	//��������sizeof�����������ռ���ڴ��С
-	//�﷨��sizeof(��������/����)
+	//整型：short(2个字节)  int(4个字节)  long(4个字节-window)  long long(8个字节)
+	//可以利用sizeof求出数据类型占用内存大小
+	//语法：sizeof(数据类型/变量)
 
 	short num1 = 10;
-	cout << "shortռ���ڴ�ռ�Ϊ��" << sizeof(num1) << endl;
+	cout << "short占用内存空间为：" << sizeof(num1) << endl;
 
 	int num2 = 10;
-	cout << "intռ���ڴ�ռ�Ϊ��" << sizeof(num2) << endl;
+	cout << "int占用内存空间为：" << sizeof(num2) << endl;
 
 	long num3 = 10;
-	cout << "longռ���ڴ�ռ�Ϊ��" << sizeof(num3) << endl;
+	cout << "long占用内存空间为：" << sizeof(num3) << endl;
 
 	long long num4 = 10;
-	cout << "long longռ���ڴ�ռ�Ϊ��" << sizeof(num4) << endl;
+	cout << "long long占用内存空间为：" << sizeof(num4) << endl;
 
-	//���ʹ�С�Ƚ�
+	//整型大小比较
 	//short < int <= long <=long long
 
 	system("pause");
