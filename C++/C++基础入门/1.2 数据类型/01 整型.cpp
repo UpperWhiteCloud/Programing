@@ -1,25 +1,25 @@
 #include<iostream>
 using namespace std;
 
-int main1()
+int main()
 {
-	//ÕûĞÍ
-	//1¡¢¶ÌÕûĞÍ (-32769~32767)
+	//æ•´å‹
+	//1ã€çŸ­æ•´å‹ (-32769~32767)
 	short num1 = 32768;
 
-	//2¡¢ÕûĞÍ
+	//2ã€æ•´å‹
 	int num2 = 327668;
 
-	//3¡¢³¤ÕûĞÍ
+	//3ã€é•¿æ•´å‹
 	long num3 = 10;
 
-	//4¡¢³¤³¤ÕûĞÍ
+	//4ã€é•¿é•¿æ•´å‹
 	long long num4 = 10;
 
-	cout << "num1=" << num1 << endl;
-	cout << "num2=" << num2 << endl;
-	cout << "num3=" << num3 << endl;
-	cout << "num4=" << num4 << endl;
+	cout << "num1 = " << num1 << endl;
+	cout << "num2 = " << num2 << endl;
+	cout << "num3 = " << num3 << endl;
+	cout << "num4 = " << num4 << endl;
 
 	system("pause");
 
