@@ -9,73 +9,73 @@ using namespace std;
 
 int main()
 {
-	////²âÊÔ´úÂë
+	////æµ‹è¯•ä»£ç 
 	//Worker* worker = NULL;
-	//worker = new Employee(1, "ÕÅÈı",1);
+	//worker = new Employee(1, "å¼ ä¸‰",1);
 	//worker->ShowInformation();
 	//delete worker;
 
-	//worker = new Manager(2, "ÀîËÄ",2);
+	//worker = new Manager(2, "æå››",2);
 	//worker->ShowInformation();
 	//delete worker;
 
-	//worker = new Boss(3, "ÍõÎå",3);
+	//worker = new Boss(3, "ç‹äº”",3);
 	//worker->ShowInformation();
 	//delete worker;
 
-	//ÊµÀı»¯¹ÜÀíÕß¶ÔÏó                                     //ÏÈ°´Ctrl - K ×éºÏ¼ü,ÔÙ°´ Ctrl - C ×éºÏ¼ü½øĞĞ×¢ÊÍ
-	WorkerManager workermanager;                         //ÏÈ°´Ctrl - K ×éºÏ¼ü,ÔÙ°´ Ctrl - U ×éºÏ¼ü¼´¿ÉÈ¡Ïû×¢ÊÍ
+	//å®ä¾‹åŒ–ç®¡ç†è€…å¯¹è±¡                                     
+	WorkerManager workermanager;                         
 	
-	int choice = 0;//ÓÃÀ´´æ´¢ÓÃ»§µÄÑ¡Ïî
+	int choice = 0;//ç”¨æ¥å­˜å‚¨ç”¨æˆ·çš„é€‰é¡¹
 	
 	while (true)
 	{
-		//µ÷ÓÃÕ¹Ê¾²Ëµ¥³ÉÔ±º¯Êı
+		//è°ƒç”¨å±•ç¤ºèœå•æˆå‘˜å‡½æ•°
 		workermanager.ShowMenu();
 	
-		cout << "ÇëÊäÈëÄúµÄÑ¡Ôñ£º" << endl;
-		cin >> choice;//½ÓÊÕÓÃ»§µÄÑ¡Ïî
+		cout << "è¯·è¾“å…¥æ‚¨çš„é€‰æ‹©ï¼š" << endl;
+		cin >> choice;//æ¥æ”¶ç”¨æˆ·çš„é€‰é¡¹
 	
 		switch (choice)
 		{
-		case 0://ÍË³ö¹ÜÀíÏµÍ³
+		case 0://é€€å‡ºç®¡ç†ç³»ç»Ÿ
 			workermanager.ExitSystem();
 			break;
-		case 1://Ôö¼ÓÖ°¹¤ĞÅÏ¢
+		case 1://å¢åŠ èŒå·¥ä¿¡æ¯
 			workermanager.Add_Emp();
 			break;
-		case 2://ÏÔÊ¾Ö°¹¤ĞÅÏ¢
+		case 2://æ˜¾ç¤ºèŒå·¥ä¿¡æ¯
 			workermanager.Show_Emp();
 			break;
-		case 3://É¾³ıÀëÖ°Ö°¹¤
+		case 3://åˆ é™¤ç¦»èŒèŒå·¥
 			workermanager.Del_Emp();
 			break;
-		//{//²âÊÔ
+		//{//æµ‹è¯•
 		//	int ret = workermanager.IsExist(1);
 		//	if (ret != -1)
 		//	{
-		//		cout << "Ö°¹¤´æÔÚ" << endl;
+		//		cout << "èŒå·¥å­˜åœ¨" << endl;
 		//	}
 		//	else
 		//	{
-		//		cout << "Ö°¹¤²»´æÔÚ" << endl;
+		//		cout << "èŒå·¥ä¸å­˜åœ¨" << endl;
 		//	}
 		//	break;
 		//}
-		case 4://ĞŞ¸ÄÖ°¹¤ĞÅÏ¢
+		case 4://ä¿®æ”¹èŒå·¥ä¿¡æ¯
 			workermanager.Mod_Emp();
 			break;
-		case 5://²éÕÒÖ°¹¤ĞÅÏ¢
+		case 5://æŸ¥æ‰¾èŒå·¥ä¿¡æ¯
 			workermanager.Find_Emp();
 			break;
-		case 6://°´ÕÕ±àºÅÅÅĞò
+		case 6://æŒ‰ç…§ç¼–å·æ’åº
 			workermanager.Sort_Emp();
 			break;
-		case 7://Çå¿ÕËùÓĞÎÄµµ
+		case 7://æ¸…ç©ºæ‰€æœ‰æ–‡æ¡£
 			workermanager.Clean_File();
 			break;
 		default:
-			system("cls");//ÇåÆÁ²Ù×÷
+			system("cls");//æ¸…å±æ“ä½œ
 			break;
 		}
 	}
