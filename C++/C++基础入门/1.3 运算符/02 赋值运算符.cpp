@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 
-int main2()
+int main()
 {
-	//赋值运算符
+	//赂鲁脰碌脭脣脣茫路没
 
 	// =
 	int a = 10;
