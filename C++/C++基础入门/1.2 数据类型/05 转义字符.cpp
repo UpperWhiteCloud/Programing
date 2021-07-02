@@ -1,19 +1,19 @@
 #include<iostream>
 using namespace std;
 
-int main5()
+int main()
 {
-	//×ªÒå×Ö·û
+	//è½¬ä¹‰å­—ç¬¦
 
-	//»»ĞĞ·û  \t
+	//æ¢è¡Œç¬¦  \t
 
 	cout << "Hello World!\n";
 
-	//·´Ğ±¸Ü  \\
+	//åæ–œæ   \\
 
 	cout << "\\" << endl;
 
-	//Ë®Æ½ÖÆ±í·û  \t      ×÷ÓÃ£º¿ÉÒÔÕûÆëÊä³öÊı¾İ
+	//æ°´å¹³åˆ¶è¡¨ç¬¦  \t      ä½œç”¨ï¼šå¯ä»¥æ•´é½è¾“å‡ºæ•°æ®
 
 	cout << "aaaa\thelloworld" << endl;
 	cout << "aa\thelloworld" << endl;
