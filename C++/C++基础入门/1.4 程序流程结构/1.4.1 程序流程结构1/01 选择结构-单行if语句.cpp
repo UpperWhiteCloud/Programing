@@ -1,24 +1,24 @@
 #include<iostream>
 using namespace std;
 
-int main1()
+int main()
 {
-	//Ñ¡Ôñ½á¹¹ µ¥º®ifÓï¾ä
-	//ÓÃ»§ÊäÈë·ÖÊý£¬Èç¹û·ÖÊý´óÓÚ600£¬ÊÓÎª¿¼ÉÏÒ»±¾´óÑ§£¬ÔÚÆÁÄ»ÉÏÊä³ö
+	//é€‰æ‹©ç»“æž„ å•è¡Œifè¯­å¥
+	//ç”¨æˆ·è¾“å…¥åˆ†æ•°ï¼Œå¦‚æžœåˆ†æ•°å¤§äºŽ600ï¼Œè§†ä¸ºè€ƒä¸Šä¸€æœ¬å¤§å­¦ï¼Œåœ¨å±å¹•ä¸Šè¾“å‡º
 
-	//1¡¢ÓÃ»§ÊäÈë·ÖÊý
+	//1ã€ç”¨æˆ·è¾“å…¥åˆ†æ•°
 	int score = 0;
-	cout << "ÇëÊäÈëÒ»¸ö·ÖÊý£º" << endl;
+	cout << "è¯·è¾“å…¥ä¸€ä¸ªåˆ†æ•°ï¼š" << endl;
 	cin >> score;
 
-	//2¡¢´òÓ¡ÓÃ»§ÊäÈëµÄ·ÖÊý
-	cout << "ÄúÊäÈëµÄ·ÖÊýÎª£º" << score << endl;
+	//2ã€æ‰“å°ç”¨æˆ·è¾“å…¥çš„åˆ†æ•°
+	cout << "æ‚¨è¾“å…¥çš„åˆ†æ•°ä¸ºï¼š" << score << endl;
 
-	//3¡¢ÅÐ¶Ï·ÖÊýÊÇ·ñ´óÓÚ600£¬Èç¹û´óÓÚ£¬ÄÇÃ´Êä³ö
-	//×¢ÒâÊÂÏî£¬ifÌõ¼þºóÃæ²»Òª¼Ó·ÖºÅ
+	//3ã€åˆ¤æ–­åˆ†æ•°æ˜¯å¦å¤§äºŽ600ï¼Œå¦‚æžœå¤§äºŽï¼Œé‚£ä¹ˆè¾“å‡º
+	//æ³¨æ„äº‹é¡¹ï¼Œifæ¡ä»¶åŽé¢ä¸è¦åŠ åˆ†å·
 	if ( score > 600 )
 	{
-		cout << "¹§Ï²Äú¿¼ÉÏÁËÒ»±¾´óÑ§£¡£¡£¡" << endl;
+		cout << "æ­å–œæ‚¨è€ƒä¸Šäº†ä¸€æœ¬å¤§å­¦ï¼ï¼ï¼" << endl;
 	}
 
 	system("pause");
