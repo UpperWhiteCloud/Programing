@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	//¸³ÖµÔËËã·û
+	//赋值运算符
 
 	// =
 	int a = 10;
