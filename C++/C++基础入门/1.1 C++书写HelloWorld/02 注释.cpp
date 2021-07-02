@@ -1,18 +1,18 @@
 #include<iostream>
 using namespace std;
 
-//1¡¢µ¥ÐÐ×¢ÊÍ
+//1ã€å•è¡Œæ³¨é‡Š
 
-//2¡¢¶àÐÐ×¢ÊÍ
+//2ã€å¤šè¡Œæ³¨é‡Š
 
 /*
-	mainÊÇÒ»¸ö³ÌÐòµÄÈë¿Ú
-	Ã¿¸ö³ÌÐò¶¼±ØÐëÓÐÔõÃ´Ò»¸öº¯Êý
-	ÓÐÇÒ½öÓÐÒ»¸ö
+	mainæ˜¯ä¸€ä¸ªç¨‹åºçš„å…¥å£
+	æ¯ä¸ªç¨‹åºéƒ½å¿…é¡»æœ‰æ€Žä¹ˆä¸€ä¸ªå‡½æ•°
+	æœ‰ä¸”ä»…æœ‰ä¸€ä¸ª
 */
-int main2()
+int main()
 {
-	//11ÐÐ´úÂëµÄº¬Òå¾ÍÊÇÔÚÆÁÄ»Êä³öHello World!
+	//11è¡Œä»£ç çš„å«ä¹‰å°±æ˜¯åœ¨å±å¹•è¾“å‡ºHello World!
 	cout << "Hello World!" << endl;
 
 	system("pause");
