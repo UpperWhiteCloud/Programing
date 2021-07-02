@@ -1,19 +1,19 @@
 #include<iostream>
 using namespace std;
 
-int main7()
+int main()
 {
-	//1¡¢´´½¨boolÊı¾İÀàĞÍ
-	bool flag = true;  //true´ú±íÕæ
+	//1ã€åˆ›å»ºboolæ•°æ®ç±»å‹
+	bool flag = true;  //trueä»£è¡¨çœŸ
 	cout << flag << endl;
 
-	flag = false;  //false´ú±í¼Ù
+	flag = false;  //falseä»£è¡¨å‡
 	cout << flag << endl;
 
-	//±¾ÖÊÉÏ 1´ú±íÕæ 0´ú±í¼Ù
+	//æœ¬è´¨ä¸Š 1ä»£è¡¨çœŸ 0ä»£è¡¨å‡
 
-	//2¡¢²é¿´boolÀàĞÍËùÕ¼ÄÚ´æ¿Õ¼ä
-	cout << "boolÀàĞÍËùÕ¼ÄÚ´æ¿Õ¼ä£º" << sizeof(bool) << endl;
+	//2ã€æŸ¥çœ‹boolç±»å‹æ‰€å å†…å­˜ç©ºé—´
+	cout << "boolç±»å‹æ‰€å å†…å­˜ç©ºé—´ï¼š" << sizeof(bool) << endl;
 
 	system("pause");
 
