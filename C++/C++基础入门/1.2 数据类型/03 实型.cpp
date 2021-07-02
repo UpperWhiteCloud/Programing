@@ -1,12 +1,12 @@
 #include<iostream>
 using namespace std;
 
-int main2()
+int main()
 {
 
-	//µ¥¾«¶È float
-	//Ë«¾«¶È double
-	//Ä¬ÈÏÇé¿öÏÂ£¬Êä³öÒ»¸öÊı£¬»áÏÔÊ¾³ö6Î»ÓĞĞ§Êı×Ö
+	//å•ç²¾åº¦ float
+	//åŒç²¾åº¦ double
+	//é»˜è®¤æƒ…å†µä¸‹ï¼Œè¾“å‡ºä¸€ä¸ªæ•°ï¼Œä¼šæ˜¾ç¤ºå‡º6ä½æœ‰æ•ˆæ•°å­—
 
 	float f1 = 3.1415926f;
 
@@ -16,11 +16,11 @@ int main2()
 
 	cout << "d1=" << d1 << endl;
 
-	//Í³¼ÆfloatºÍdoubleÕ¼ÓÃÄÚ´æ¿Õ¼ä
-	cout << "floatÕ¼ÓÃÄÚ´æ¿Õ¼äÎª£º" << sizeof(f1) << endl;   //4×Ö½Ú
-	cout << "doubleÕ¼ÓÃÄÚ´æ¿Õ¼äÎª£º" << sizeof(d1) << endl;  //8×Ö½Ú
+	//ç»Ÿè®¡floatå’Œdoubleå ç”¨å†…å­˜ç©ºé—´
+	cout << "floatå ç”¨å†…å­˜ç©ºé—´ä¸ºï¼š" << sizeof(f1) << endl;   //4å­—èŠ‚
+	cout << "doubleå ç”¨å†…å­˜ç©ºé—´ä¸ºï¼š" << sizeof(d1) << endl;  //8å­—èŠ‚
 
-	//¿ÆÑ§¼ÆÊı·¨
+	//ç§‘å­¦è®¡æ•°æ³•
 	float f2 = 3e2; //3 * 10 ^2
 	cout << "f2=" << f2 << endl;
 
