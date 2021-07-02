@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 
-int main3()
+int main()
 {
-	//±äÁ¿´´½¨µÄÓï·¨£ºÊı¾İÀàĞÍ ±äÁ¿Ãû = ±äÁ¿³õÊ¼Öµ
+	//å˜é‡åˆ›å»ºçš„è¯­æ³•ï¼šæ•°æ®ç±»å‹ å˜é‡å = å˜é‡åˆå§‹å€¼
 	int a = 10;
 
 	cout << "a = " << a << endl;
